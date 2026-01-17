@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redeeverse – FC Mobile Redeem Codes</title>
+  <meta name="description" content="Latest FC Mobile redeem codes with active and expired status.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Redeeverse</h1>
+  <p>Latest FC Mobile redeem codes & rewards</p>
+  <a class="btn" href="https://redeem.fcm.ea.com/" target="_blank">Official Redeem Site</a>
+</header>
+
+<section class="codes-section">
+  <h2>Redeem Codes</h2>
+  <div id="codes"></div>
+</section>
+
+<!-- OWNER PANEL -->
+<div id="ownerPanel" class="owner hidden">
+  <div class="owner-box">
+    <button class="close" onclick="closeOwner()">✕</button>
+
+    <h3>Owner Panel</h3>
+
+    <div id="lockBox">
+      <input id="ownerCode" placeholder="Owner Code">
+      <button onclick="unlockOwner()">Unlock</button>
+    </div>
+
+    <div id="adminBox" class="hidden">
+      <h4>Add / Edit Code</h4>
+      <input id="cCode" placeholder="Redeem Code">
+      <input id="cReward" placeholder="Reward">
+      <input id="cDate" placeholder="Date">
+      <select id="cStatus">
+        <option>Active</option>
+        <option>Expired</option>
+      </select>
+      <button onclick="saveCode()">Save</button>
+
+      <h4>Manage Codes</h4>
+      <div id="adminList"></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>© 2026 Redeeverse · Fan Project</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
