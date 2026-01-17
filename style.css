@@ -1,0 +1,25 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial}
+body{background:#0f2027;color:#fff}
+
+.hero{text-align:center;padding:40px}
+.btn{background:#00c6ff;color:#000;padding:10px 18px;border-radius:6px;text-decoration:none;font-weight:bold}
+
+.codes-section{max-width:600px;margin:auto;padding:20px}
+.code{background:rgba(255,255,255,.1);padding:12px;border-radius:8px;margin-bottom:10px}
+.active{color:#00ff9c}
+.expired{color:#ff4d4d}
+
+/* OWNER */
+.owner{position:fixed;inset:0;background:rgba(0,0,0,.8);display:flex;justify-content:center;align-items:center}
+.owner-box{background:#111;padding:15px;border-radius:12px;width:300px}
+.close{float:right;background:none;color:#fff;border:none;font-size:18px}
+
+.owner-box input,select,button{
+  width:100%;margin-top:6px;padding:6px;border-radius:4px;border:none
+}
+.owner-box button{background:#00c6ff;font-weight:bold}
+
+.admin-item{border:1px solid #333;padding:6px;margin-top:6px;border-radius:6px}
+.admin-item button{margin-top:4px;background:#444;color:#fff}
+
+.hidden{display:none}
